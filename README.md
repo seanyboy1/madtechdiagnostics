@@ -1,2 +1,1 @@
-# madtechdiagnostics
-Automotive Diag Website
+# madtech.github.io

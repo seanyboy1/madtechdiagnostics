@@ -1,0 +1,81 @@
+/* 
+Charlie Villanueva
+07/18/2021
+CS 125H - Lab 3
+ */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: #7E7F83;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 60px;
+    text-align: center;
+}
+header {
+    background-color: #002855;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;    
+}
+header * {
+    display: inline;
+    padding-top: 15px;
+}
+
+header li {
+    margin: 50px;
+    
+}
+
+header li a {
+    color:#979DAC;
+    text-decoration: none;
+    
+}
+
+header h2 {
+    margin-left: auto;
+    margin-right: auto;
+    color: #002855;
+}
+
+main h1 {
+    color: #002855;
+}
+
+main h2 {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+main h3 {
+    color: #002855;
+}
+main h4 {
+    color:white;
+    font-style: italic;
+}
+
+main p{
+    color: white;
+    font-style: italic;
+}
+
+address {
+    color: #002855;
+}
+a:hover, a:focus {
+	font-style: italic;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
