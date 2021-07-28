@@ -80,10 +80,10 @@ main h2, main p, footer{
 section, section h2, section iframe {
     margin: 3em;
 }
-/* section iframe{
-    width:"420";
-    height:"345";
-} */
+section iframe{
+    width:40em;
+    height:20em;
+}
 footer {
     background-color: #0066b2;
     
