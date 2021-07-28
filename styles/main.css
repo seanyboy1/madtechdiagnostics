@@ -3,79 +3,101 @@ Charlie Villanueva
 07/18/2021
 CS 125H - Lab 3
  */
+ /* #0066b2 */
+ *{
+     margin: 0;
+     padding: 0;
+    
+ }
+ html {
+    max-height: 100%;
+ }
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    background-color: #7E7F83;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-    padding: 60px;
     text-align: center;
-}
-header {
-    background-color: #002855;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0px;
-    height: 50px;
-    display: flex;
-    align-items: center;    
-}
-header * {
-    display: inline;
-    padding-top: 15px;
-}
-
-header li {
-    margin: 50px;
-    
-}
-
-header li a {
-    color:#979DAC;
-    text-decoration: none;
-    
-}
-
-header h2 {
-    margin-left: auto;
-    margin-right: auto;
-    color: #002855;
-}
-
-main h1 {
-    color: #002855;
-}
-
-main h2 {
-    color: white;
-    font-style: italic;
-    font-weight: bold;
-}
-main h3 {
-    color: #002855;
-}
-main h4 {
-    color:white;
-    font-style: italic;
-}
-
-main p{
-    color: white;
-    font-style: italic;
-}
-
-address {
-    color: #002855;
+    max-width: 95%;
+    margin: auto;
+    background-color:black;
+    box-sizing: border-box;
+    border: 3px;
+    border-style: solid;
+    border-color: #0066b2;    
 }
 a:hover, a:focus {
 	font-style: italic;
 }
+a:link {
+    color:whitesmoke
+}
+a:visited {
+    color:#0066b2;
+}
+.fa:hover {
+    opacity: 0.7;
+}
 
-footer {
-    text-align: center;
+header {
+    padding-bottom: 2em;
+}
+
+header h2 {
+    font-size: 110%;
+    color: whitesmoke;
+    
+}
+header img {
+    width: 80%;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+main {
+    clear: left;
+    margin: 3em;  
+}
+main article {
+    margin: 1em;
+}
+main article h2, main article p{   
+    margin: 1em;
+}
+
+main h2, main p, footer{
     color: white;
     font-style: italic;
+   
 }
+section, section h2, section iframe {
+    margin: 3em;
+}
+section iframe{
+    width:"420";
+    height:"345";
+}
+footer {
+    background-color: #0066b2;
+    
+}
+
+footer p .fa-instagram, footer p .fa-google {
+    color: white;
+    padding: 20px;
+    font-size: 100%;
+    width: 5px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+
+  
