@@ -42,7 +42,7 @@ header {
     padding: 2em 2em 2em;
 }
 header img {
-    width: 80%;
+    max-width: 90%;
     animation: fadeInAnimation ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; 
