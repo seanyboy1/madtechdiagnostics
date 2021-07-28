@@ -70,7 +70,7 @@ main {
     /* margin: 1em 1em 1em   */
 }
 
-main article, main article h2, main article p, main section, main section h2{   
+main article, main article p, main section, main section h2{   
     padding: 1em 1em 1em;
     /* margin: 1em 1em 1em; */
 }
@@ -91,10 +91,10 @@ main section {
 }
 
 main section iframe{
-    /* margin: 1em 1em 1em; */
     padding: 3em 3em 3em;
     max-width:40%;
     height:100%;
+    border-color: #0066b2;
 }
 footer {
     background-color: #0066b2;   
