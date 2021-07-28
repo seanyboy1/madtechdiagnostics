@@ -1,7 +1,7 @@
 /* 
 Charlie Villanueva
-07/18/2021
-CS 125H - Lab 3
+07/28/2021
+CS 125H - Lab 4
  */
  /* #0066b2 */
  *{
@@ -40,6 +40,7 @@ a:visited {
 
 header {
     padding: 2em 2em 2em;
+    margin: 1em 1em 1em;
 }
 header img {
     max-width: 90%;
@@ -65,11 +66,13 @@ header h2 {
 
 main {
     clear: left;
-    padding:3em 3em 7em;  
+    padding:3em 3em 7em;
+    margin: 1em 1em 1em  
 }
 
 main article, main article h2, main article p{   
     padding: 1em 1em 1em;
+    margin: 1em 1em 1em;
 }
 
 main h2, main p, footer{
@@ -79,16 +82,19 @@ main h2, main p, footer{
 }
 main section {
     padding: 1em 1em 1em;
+    margin: 1em 1em 1em;
     position: relative;
     overflow: hidden;
-    width: 97%;
+    width: 94%;
 }
 main section h2{
     padding: 1em 1em 1em;
+    margin:1em 1em 1em;
 }
 main section iframe{
+    margin: 1em 1em 1em;
     padding: 3em 3em 3em;
-    width:50%;
+    max-width:40%;
     height:100%;
 }
 footer {
