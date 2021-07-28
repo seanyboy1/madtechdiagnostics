@@ -16,7 +16,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     text-align: center;
-    max-width: 95%;
+    max-width: 100%;
     margin: auto;
     background-color:black;
     box-sizing: border-box;
@@ -80,10 +80,10 @@ main h2, main p, footer{
 section, section h2, section iframe {
     margin: 3em;
 }
-section iframe{
+/* section iframe{
     width:"420";
     height:"345";
-}
+} */
 footer {
     background-color: #0066b2;
     
