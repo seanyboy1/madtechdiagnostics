@@ -40,7 +40,7 @@ a:visited {
 
 header {
     padding: 2em 2em 2em;
-    margin: 1em 1em 1em;
+    /* margin: 1em 1em 1em; */
 }
 header img {
     max-width: 90%;
@@ -67,12 +67,16 @@ header h2 {
 main {
     clear: left;
     padding:3em 3em 7em;
-    margin: 1em 1em 1em  
+    /* margin: 1em 1em 1em   */
 }
 
-main article, main article h2, main article p{   
+main article, main article h2, main article p, main section, main section h2{   
     padding: 1em 1em 1em;
-    margin: 1em 1em 1em;
+    /* margin: 1em 1em 1em; */
+}
+main article p {
+    font-size: 110%;
+    font-style: italic;
 }
 
 main h2, main p, footer{
@@ -81,18 +85,13 @@ main h2, main p, footer{
    
 }
 main section {
-    padding: 1em 1em 1em;
-    margin: 1em 1em 1em;
     position: relative;
     overflow: hidden;
     width: 94%;
 }
-main section h2{
-    padding: 1em 1em 1em;
-    margin:1em 1em 1em;
-}
+
 main section iframe{
-    margin: 1em 1em 1em;
+    /* margin: 1em 1em 1em; */
     padding: 3em 3em 3em;
     max-width:40%;
     height:100%;
