@@ -40,7 +40,7 @@ a:visited {
 
 header {
     padding: 2em 2em 2em;
-    /* margin: 1em 1em 1em; */
+    margin: 1em 1em 1em;
 }
 header img {
     max-width: 90%;
@@ -67,12 +67,12 @@ header h2 {
 main {
     clear: left;
     padding:3em 3em 7em;
-    /* margin: 1em 1em 1em   */
+    margin: 1em 1em 1em  
 }
 
-main article, main article p, main section, main section h2{   
+main article, main article h2, main article p, main section, main section h2, main section p{   
     padding: 1em 1em 1em;
-    /* margin: 1em 1em 1em; */
+    margin: 1em 1em 1em;
 }
 main article p {
     font-size: 110%;
