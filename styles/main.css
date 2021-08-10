@@ -10,37 +10,50 @@ CS 125H - Lab 4
 
     
  }
- html, body {
-    min-height: 100%;
+ 
+ html  {
+     background-image: url('/images/madtech_logo.png');
  }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     text-align: center;
-    max-width: 100%;
-    margin: 0;
+    margin: 1em;
     background-color:black;
-    box-sizing: border-box;
-    border: 3px;
-    border-style: solid;
-    border-color: #0066b2;    
+    color:whitesmoke;
+    border: 3px solid #0066b2;    
 }
-a:hover, a:focus {
-	font-style: italic;
-}
+
+
 a:link {
     color:whitesmoke
 }
 a:visited {
     color:#0066b2;
+    text-decoration: none;
+}
+a:hover, a:focus {
+    font-style: italic;
 }
 .fa:hover {
     opacity: 0.7;
 }
+.submit:hover {
+    opacity: 0.7;
+    background-color: #0066b2;
+    box-shadow: none;
+}
+h1, h2, h3 {
+    margin: .5em 0;
+}
+p {
+    font-size: 110%;
+    line-height: 130%;
+}
 
 header {
-    padding: 2em 2em 2em;
-    margin: 1em 1em 1em;
+    padding: 1em;
 }
 header img {
     max-width: 90%;
@@ -57,57 +70,78 @@ header img {
     }
 }
 
-header h2 {
-    font-size: 110%;
-    color: whitesmoke;
-    padding: .25em .25em .25em;
-    
+main article {
+    line-height: 3em;
+    padding: 1em 4em;
+    overflow: hidden;
 }
-
-main {
-    clear: left;
-    padding:3em 3em 7em;
-    margin: 1em 1em 1em  
-}
-
-main article, main article h2, main article p, main section, main section h2, main section p{   
-    padding: 1em 1em 1em;
-    margin: 1em 1em 1em;
+main article h1 {
+    font-variant: small-caps;
 }
 main article p {
-    font-size: 110%;
-    font-style: italic;
+    font-style:italic;
+    margin: 0 3em;
 }
-
-main h2, main p, footer{
-    color: whitesmoke;
-    font-style: italic;
-   
-}
-main section {
-    position: relative;
-    overflow: hidden;
-    width: 94%;
-}
-
-main section iframe{
-    padding: 3em 3em 3em;
-    max-width:40%;
-    height:100%;
+main article iframe {
+    display: block;
+    margin: .5em auto;
+    width: 90%;
+    max-width: 560px;
+    height: 315px;
     border-color: #0066b2;
+}
+main form {
+    width: 450px;
+    margin: 150px auto;
+}
+main form input, main form textarea {
+    color:whitesmoke;
+    background-color: transparent;
+    border: 2px solid #0066b2;
+    box-shadow: inset 0 1px 5px #0066b2;
+    width: 100%;
+    padding: 1em;
+    font-size: 120%;
+    font-weight: 600;
+    line-height: 1.7em;
+    border-radius: 7px;
+    margin-bottom: 1em;
+    outline: none;
+    transition: all .3s ease;
+}
+
+main form ::placeholder {
+    color: #0066b2;
+}
+main form textarea {
+    height: 200px;
+    resize: vertical;
+}
+main form .submit {
+    width: 100%;
+    padding: .6250em 0;
+    font-size: 137.50%;
+    border-radius: 7px;
+    font-weight: 700;
+    border: none;
+    background-color: #0066b2;
+    color:whitesmoke;
+    text-transform: uppercase;
+    transition: all .3s ease;
 }
 footer {
     background-color: #0066b2;   
 }
-
+footer p {
+    font-size: 80%;
+    padding: 1em 0;
+}
 footer p .fa-instagram, footer p .fa-google{
     color: whitesmoke;
     padding: 10px;
-    font-size: 100%;
     width: 5px;
-    text-decoration: none;
     border-radius: 50%;
-    
+    text-decoration: none;
 }
 
 

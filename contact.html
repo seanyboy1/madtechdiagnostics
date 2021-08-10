@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- 
+            Charlie Villanueva
+            07-28-2021
+            CS 125H - Term Project Home Page v4
+         -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact</title>
 </head>
+
 <body>
-    
+    <header>
+
+        <a href="index.html"><img src="images/madtech_logo.png" alt="madtech logo"></a>
+
+        <h2><a href="index.html">Home</a>&nbsp<a href="services.html">Services</a>&nbsp<a href="contact.html">Contact</a></h2>
+
+    </header>
+    <main>
         <!-- Contact  -->
-        <section>
-            <h2><a href="#contact">Let's Get In Touch!</a></h2>
+        <article>
+            <h1>Let's Get In Touch!</h1>
 
 
             <p>Is there anything we can do to help? Give us a call or send us an
@@ -19,6 +36,22 @@
                 <a href="mailto:bogus_email@outlook.com">bogus_email@outlook.com</a>
             </address>
 
-        </section>
+            <form class="contact-form" action="contact.html" method="POST">
+                <input type="text" name="name" placeholder="Name"required>
+                <input type="email" name="email" placeholder="Email"required>
+                <textarea name="text" placeholder="Message"required></textarea>
+                <input type="submit" value="submit" class="submit">
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2020 - MadTechDiagnostics<a
+                href="https://www.google.com/maps/uv?pb=!1s0x22b60f6a060ecfeb%3A0xbe1cb9c6a8ad2582!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMNL5jhSCMI5iHDysqbkaShDET8PUwVKIrMxoSs%3Dw180-h320-k-no!5smadtech%20diagnostics%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipMNL5jhSCMI5iHDysqbkaShDET8PUwVKIrMxoSs&hl=en&sa=X&ved=2ahUKEwjilM-ppobyAhXY3J4KHTEdDzYQoiowEnoECEcQAw"
+                class="fa fa-google"></a><a href="https://www.instagram.com/madtechdiagnostics"
+                class="fa fa-instagram"></a>
+        </p>
+
+    </footer>
 </body>
+
 </html>
