@@ -10,7 +10,6 @@ CS 125H - Lab 4
 
     
  }
- 
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +18,7 @@ body {
     margin: 1em;
     background-color:black;
     color:whitesmoke;
-    border: 3px solid #0066b2;    
+    border: 3px solid #0066b2; 
 }
 
 
@@ -54,7 +53,7 @@ header {
     position: sticky;
     top: 0;
     background-color: black;
-    border-bottom: 1px solid #0066b2;   
+    border-bottom: 1px solid #0066b2; 
 }
 
 header img {
