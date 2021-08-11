@@ -101,6 +101,7 @@ main form {
     line-height: 3em;
     padding: 1em 4em;
     overflow: hidden;
+    clear: right;
 }
 main form input, main form textarea, main form button {
     color:whitesmoke;
@@ -141,7 +142,8 @@ main aside {
     width: 215px;
     float: left;
     padding: 10px 0 20px 20px;
-    margin-left: 3em;
+    margin:1em 2em;
+    
 }
 main aside h2 {
     color: #0066b2;
