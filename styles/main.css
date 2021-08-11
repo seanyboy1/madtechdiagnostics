@@ -50,7 +50,11 @@ p {
 }
 
 header {
-    padding: 1em;   
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid #0066b2;   
 }
 
 header img {
@@ -68,11 +72,7 @@ header img {
         opacity: 1;
     }
 }
-header h2 {
-    position: sticky;
-    top: 0;
-    padding: 1em;
-}
+
 
 main article {
     line-height: 3em;
