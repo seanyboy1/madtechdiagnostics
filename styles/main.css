@@ -1,7 +1,7 @@
 /* 
 Charlie Villanueva
 07/28/2021
-CS 125H - Lab 4
+CS 125H - Lab 5
  */
  /* #0066b2 */
  *{
@@ -50,7 +50,6 @@ p {
 
 header {
     padding: 1em;
-    position: sticky;
     top: 0;
     background-color: black;
     border-bottom: 1px solid #0066b2; 
@@ -71,23 +70,49 @@ header img {
         opacity: 1;
     }
 }
+/* nav section */
+#nav_menu {
 
+    position:sticky;
+    position:-webkit-sticky;
+    top:0; 
+}
+#nav_menu ul {
+    padding: 1em;
+    list-style-type: none;
+    text-align: center;
+    background-color: #0066b2;
+}
+#nav_menu ul li {
+    display: inline;
+    padding: 0 2em;
+}
+#nav_menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#nav_menu ul li a.current {
+	color: red;
+}
+
+
+main {
+    padding: 1em;
+    overflow: hidden;
+}
 
 main article {
     line-height: 3em;
-    padding: 1em 4em;
-    overflow: hidden;
 }
 main article h1 {
     font-variant: small-caps;
 }
 main article p{
     font-style:italic;
-    margin: 0 3em;
 }
-main article address {
-    margin: 1em;
-}
+
 main article iframe {
     display: block;
     margin: .5em auto;
@@ -96,13 +121,35 @@ main article iframe {
     height: 315px;
     border-color: #0066b2;
 }
-main form {
-    margin: 1em;
-    line-height: 3em;
-    padding: 1em 4em;
+main section {
+    width: 95%;
+    margin: 1em 3em;
+    padding: 1em;
+    display: flex;
     overflow: hidden;
-    float: left;
-    clear: right;
+}
+main aside {
+    width: 25%;
+    max-width: 200px;
+    margin: 0 1em;
+}
+main aside h2 {
+    color: #0066b2;
+    padding: .5em 0 .25em 0;
+}
+main aside h3 {
+    padding-bottom: .25em;
+}
+main aside img {
+    border: 2px solid #0066b2;
+    width:100%;
+}
+main form {
+    width: 75%;
+    margin: 1em 3em;
+    line-height: 3em;
+    padding: 1em;
+    overflow: hidden;
 }
 main form input, main form textarea, main form button {
     color:whitesmoke;
@@ -139,30 +186,9 @@ main form .submit {
     text-transform: uppercase;
     transition: all .3s ease;
 }
-main aside {
-    width: 215px;
-    float: left;
-    padding: 10px 0 20px 20px;
-    margin:1em 2em;
-}
-main aside h2 {
-    color: #0066b2;
-    font-size: 105%;
-    padding: .5em 0 .25em 0;
-}
-main aside h3 {
-    font-size: 105%;
-    padding-bottom: .25em;
-}
-main aside img {
-    border: 2px solid #0066b2;
-    height: 75;
-    width:100%;
-}
 
 footer {
-    background-color: #0066b2;
-    clear: both;   
+    background-color: #0066b2; 
 }
 footer p {
     font-size: 80%;
