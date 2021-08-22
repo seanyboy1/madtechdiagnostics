@@ -85,7 +85,7 @@ header img {
 }
 #nav_menu ul li {
     display: inline;
-    padding: 0 2em;
+    padding: 0 .5em;
 }
 #nav_menu ul li a {
     text-decoration: none;
@@ -123,16 +123,11 @@ main article iframe {
 }
 /* main aside section */
 main section {
-    width: 95%;
-    margin: 1em 3em;
-    padding: 1em;
     display: flex;
-    overflow: hidden;
+    flex-direction: row wrap;
 }
-main aside {
-    width: 25%;
-    max-width: 200px;
-    margin: 0 1em;
+main aside{
+    padding: 1em;
 }
 main aside h2 {
     color: #0066b2;
@@ -146,12 +141,9 @@ main aside img {
     width:100%;
 }
 /* form section */
-main form {
-    width: 75%;
-    margin: 1em 3em;
+main form{
     line-height: 3em;
-    padding: 1em;
-    overflow: hidden;
+    padding: 1em 1em 1em 0 ;
 }
 main form input, main form textarea, main form button {
     color:white;
