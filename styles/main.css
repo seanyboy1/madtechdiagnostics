@@ -1,7 +1,7 @@
 /* 
 Charlie Villanueva
-07/28/2021
-CS 125H - Lab 5
+08/18/2021
+CS 125H - Lab 6
  */
  /* #0066b2 */
  *{
@@ -47,7 +47,7 @@ p {
     font-size: 110%;
     line-height: 130%;
 }
-
+/* header section */
 header {
     padding: 1em;
     top: 0;
@@ -97,7 +97,7 @@ header img {
 	color: red;
 }
 
-
+/* main article section */
 main {
     padding: 1em;
     overflow: hidden;
@@ -121,6 +121,7 @@ main article iframe {
     height: 315px;
     border-color: #0066b2;
 }
+/* main aside section */
 main section {
     width: 95%;
     margin: 1em 3em;
@@ -144,6 +145,7 @@ main aside img {
     border: 2px solid #0066b2;
     width:100%;
 }
+/* form section */
 main form {
     width: 75%;
     margin: 1em 3em;
@@ -186,7 +188,7 @@ main form .submit {
     text-transform: uppercase;
     transition: all .3s ease;
 }
-
+/* footer section */
 footer {
     background-color: #0066b2; 
 }
