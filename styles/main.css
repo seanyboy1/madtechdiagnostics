@@ -3,7 +3,8 @@ Charlie Villanueva
 08/18/2021
 CS 125H - Lab 6
  */
- /* #0066b2 */
+ /* Honolulu Blue */
+ /* #0066b2; */
  *{
      margin: 0;
      padding: 0;
@@ -26,7 +27,7 @@ a:link {
     color:white;
 }
 a:visited {
-    color:#0066b2;
+    color:grey;
     text-decoration: none;
 }
 a:hover, a:focus {
@@ -45,7 +46,7 @@ h1, h2, h3 {
 }
 p {
     font-size: 110%;
-    line-height: 130%;
+    line-height: 140%;
 }
 /* header section */
 header {
@@ -71,29 +72,29 @@ header img {
     }
 }
 /* nav section */
-#nav_menu {
+nav {
 
     position:sticky;
     position:-webkit-sticky;
     top:0; 
 }
-#nav_menu ul {
+nav ul {
     padding: 1em;
     list-style-type: none;
     text-align: center;
     background-color: #0066b2;
 }
-#nav_menu ul li {
+nav ul li {
     display: inline;
     padding: 0 .5em;
 }
-#nav_menu ul li a {
+nav ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-#nav_menu ul li a.current {
+nav ul li a.current {
 	color: yellow
 }
 
@@ -124,23 +125,28 @@ main article iframe {
 /* main aside section */
 main section {
     display: flex;
+    justify-content: center;
 }
+
 main aside{
-    padding: 1em;
+    padding: .5 1em;
 }
 main aside h2 {
+    font-size: 130%;
     color: #0066b2;
     padding: .5em 0 .25em 0;
 }
 main aside h3 {
+    font-size: 110%;
     padding-bottom: .25em;
 }
 main aside img {
     border: 2px solid #0066b2;
-    width:100%;
+    width:90%;
 }
 /* form section */
 main form{
+    margin: 1em;
     line-height: 3em;
     padding: 1em 1em 1em 0 ;
 }
